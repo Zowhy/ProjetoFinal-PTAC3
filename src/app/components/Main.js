@@ -26,7 +26,7 @@ export default function Main() {
   }, []);
 
   if (isError) {
-    return <ServerError />;
+    return <Error />;
   }
 
   if (listProduto.length === 0) {
