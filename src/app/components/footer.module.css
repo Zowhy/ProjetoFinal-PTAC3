@@ -1,2 +1,10 @@
-
+.rodape {
+    background-color: #dfdede;
+    color: #000000;
+  }
+  .container {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+  }
 
