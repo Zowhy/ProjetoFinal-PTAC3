@@ -34,11 +34,7 @@
     height: 100%;
     object-fit: cover;
   }
-  
-  .detalhesProduto {
-    padding: 20px;
-  }
-  
+
   .album {
     font-size: 1.2rem;
     font-weight: bold;

@@ -1,12 +1,1 @@
-  
-  .container {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-  }
-  .rodape {
-    background-color: #f6f6f6;
-    color: #000000;
-    padding: 7px 0;
-  }
+
