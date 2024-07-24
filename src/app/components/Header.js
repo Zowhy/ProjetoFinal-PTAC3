@@ -9,7 +9,7 @@ export default function Header() {
         <Image
       width={200} 
       height={200}
-
+      position= 'left'
       margin-left= 'auto'
       src={"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Opium_-_Logo.png/600px-Opium_-_Logo.png?20231110130547"} className="img"/>
         </div>
