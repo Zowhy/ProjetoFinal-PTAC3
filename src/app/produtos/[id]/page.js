@@ -16,7 +16,7 @@ export default async function Produtos({ params }) {
                 <div className={styles.detalhesProduto}>
                     <p className={styles.album}>Album: {data.album}</p>
                     <p className={styles.artista}>Artista: {data.artista}</p>
-                    <p className={styles.view}> Views:  ${data.view}</p>
+                    <p className={styles.view}> Views: {data.view}</p>
                     <p className={styles.preco}> Preço:  ${data.preco}</p>
                 </div>
             </div>
