@@ -1,52 +1,51 @@
 import { NextResponse } from "next/server";
-import { Link } from "react-router-dom";
+import Image from "next/image";
 
 export const listVinil = [
     {
         id: 1,
-        album: "Wholle Lotta Red",
-        artista: "PlayboiCarti",
-        preco: "R$500,00",
-        img: ""
+        imagem: "/AlexG.jpg",
+        album: "Trick",
+        artista: "Alex G",
+        preco: 145
     },
     {
         id: 2,
-        album: "Igor",
-        artista: "Tyler-The-Creator",
-        preco: "R$250,00",
-        img: ""
+        imagem: "/Carti.jpg",
+        album: "Whole Lotta Red",
+        artista: "Playboicarti",
+        preco: 500
     },
     {
         id: 3,
+        imagem: "/Frank.jpg",
         album: "Blond",
         artista: "Frank Ocean",
-        preco: "R$350,00",
-        img: ""
+        preco: 800
     },
     {
         id: 4,
-        album: "Diamond Eyes",
-        artista: "Deftones",
-        preco: "R$450,00",
-        img: "https://imusic.b-cdn.net/images/item/original/330/0093624967330.jpg?deftones-2010-diamond-eyes-lp&class=scaled&v=1271018545"
+        imagem: "/Lana.jpg",
+        album: "Ultraviolence",
+        artista: "Lana del Rey",
+        preco: 450
     },
     {
         id: 5,
-        album: "Trick",
-        artista: "Alex G",
-        preco: "R$50,00",
-        img: ""
+        imagem: "/Deftones.jpg",
+        album: "Diamond Eyes",
+        artista: "Deftones",
+        preco: 200
     },
     {
         id: 6,
-        album: "Lana del Rey",
-        artista: "Ultraviolence",
-        preco: "R$90,00",
-        img: ""
+        imagem: "/Tyler.jpg",
+        album: "Igor",
+        artista: "Tyler the Creator",
+        preco: 700
     }
-    
 ];
 
 export async function GET(){
-    return NextResponse.json(listaDeLivros)
+    return NextResponse.json(listVinil)
 }

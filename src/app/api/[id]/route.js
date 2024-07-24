@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { listVinil } from "../route";
+import {  listVinil } from "../route";
 
 export async function GET(req){
     const id = parseInt(req.url.split('/api/')[1]);
