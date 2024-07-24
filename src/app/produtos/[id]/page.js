@@ -3,7 +3,7 @@ import styles from "../pageId.module.css";
 
 export default async function Produtos({ params }) {
     const response = await fetch("http://localhost:3000/api/" + params.id , {
-   
+        cache: "no-cache"
     })
     const data = await response.json()
 
