@@ -1,5 +1,5 @@
 "use client";
-
+import { useState, useEffect } from "react";
 import { NextResponse } from "next/server";
 import Link from "next/link";
 import styles from "./main.module.css";
@@ -8,9 +8,22 @@ import Error from "./Error";
 import Loading from "./Loading";
 
 
+export default function Main() {
+  const [listProduto, setListProduto] = useState([]);
+  const [isError, setIsError] = useState(false);
 
-
- 
+  useEffect(() => {
+    const getProduct = async () => {
+      try {
+        const response = await fetch("/api");
+        const data = await response.json();
+        setListProduto(data);
+      } catch (error) {
+        setIsError(true);
+      }
+    };
+    getProduct();
+  }, []);
 
   if (isError) {
     return <ServerError />;
