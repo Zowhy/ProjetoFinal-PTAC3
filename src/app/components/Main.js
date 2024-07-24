@@ -14,7 +14,14 @@ export default function Main() {
 
   useEffect(() => {
     const getProduct = async () => {
-     
+      try {
+        const response = await fetch("/api");
+        const data = await response.json();
+        setListProduto(data);
+      } catch (error) {
+        setIsError(true);
+      }
+    };
     getProduct();
   }, []);
 
