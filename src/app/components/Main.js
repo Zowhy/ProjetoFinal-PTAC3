@@ -8,14 +8,9 @@ import Error from "./Error";
 import Loading from "./Loading";
 
 
-export default function Main() {
-  const [listProduto, setListProduto] = useState([]);
-  const [isError, setIsError] = useState(false);
+
 
  
-    };
-    getProduct();
-  }, []);
 
   if (isError) {
     return <ServerError />;
