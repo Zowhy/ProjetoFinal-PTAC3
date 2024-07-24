@@ -7,6 +7,7 @@ export const listVinil = [
         imagem: "/AlexG.jpg",
         album: "Trick",
         artista: "Alex G",
+        view: 130913,
         preco: 145
     },
     {
@@ -14,6 +15,7 @@ export const listVinil = [
         imagem: "/Carti.jpg",
         album: "Whole Lotta Red",
         artista: "Playboicarti",
+        view: 100000000,
         preco: 500
     },
     {
@@ -21,6 +23,7 @@ export const listVinil = [
         imagem: "/Frank.jpg",
         album: "Blond",
         artista: "Frank Ocean",
+        view: 142958948,
         preco: 800
     },
     {
@@ -28,6 +31,7 @@ export const listVinil = [
         imagem: "/Lana.jpg",
         album: "Ultraviolence",
         artista: "Lana del Rey",
+        view:12,
         preco: 450
     },
     {
@@ -35,6 +39,7 @@ export const listVinil = [
         imagem: "/Deftones.jpg",
         album: "Diamond Eyes",
         artista: "Deftones",
+        view: 294891284,
         preco: 200
     },
     {
@@ -42,6 +47,7 @@ export const listVinil = [
         imagem: "/Tyler.jpg",
         album: "Igor",
         artista: "Tyler the Creator",
+        view: 1000000000,
         preco: 700
     }
 ];

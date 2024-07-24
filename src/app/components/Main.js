@@ -50,6 +50,7 @@ export default function Main() {
                </div>
             <h3>{produto.album}</h3>
             <p>{produto.artista}</p>
+            <p> Views: {produto.view} </p>
             <p>Preço: ${produto.preco}</p>
            
 
