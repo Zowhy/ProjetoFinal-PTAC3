@@ -1,0 +1,17 @@
+# Ignore arquivos de compilação
+bin/
+obj/
+
+# Ignore arquivos de configuração de usuário
+*.user
+*.suo
+
+# Ignore arquivos de configuração do Visual Studio
+.vs/
+
+# Ignore arquivos temporários do sistema
+*.tmp
+*.log
+
+# Ignore arquivos de pacotes do NuGet
+*.nupkg
